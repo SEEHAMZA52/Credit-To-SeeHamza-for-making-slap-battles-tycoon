@@ -1,0 +1,10 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("HamzaSB Hub", "Default")
+
+local tab = DrRayLibrary.newTab("WalkSpeed", "ImageIdHere")
+tab.newButton("100 Speed", "Prints Hello!", function()
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FZxqq/GetTycoonScript/refs/heads/main/Get%20Tycoon%20Script"))()
+end)
